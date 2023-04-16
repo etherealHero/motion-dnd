@@ -83,12 +83,14 @@ function App() {
   return (
     <>
       {/*<Navbar />*/}
-      <div className="bg-accent-base h-full pt-4">
-        <h1 className="container text-4xl font-bold mb-12 hidden">
-          What'up, Olivia!
-        </h1>
-        <Categories />
-        <Todos />
+      <div className="bg-accent-base h-full pt-4 ">
+        <div className="max-w-lg mx-auto">
+          <h1 className="container text-4xl font-bold mb-12 hidden">
+            What'up, Olivia!
+          </h1>
+          <Categories />
+          <Todos />
+        </div>
       </div>
       {/* <a
         href="#"
